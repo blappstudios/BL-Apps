@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ben Lewandowski - Resume</title>
+  <!-- Using Google Fonts for a clean look -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #35424a;
+      color: #ffffff;
+      padding: 20px 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    nav {
+      background: #e8491d;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 700;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: 20px auto;
+      background: #fff;
+      border-radius: 5px;
+    }
+    .section-title {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+      border-bottom: 2px solid #e8491d;
+      padding-bottom: 5px;
+    }
+    .item {
+      margin-bottom: 20px;
+    }
+    .item h3 {
+      margin: 5px 0;
+      color: #35424a;
+    }
+    .item p {
+      margin: 5px 0;
+    }
+    .sub-item {
+      margin-left: 20px;
+      margin-top: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #35424a;
+      color: #fff;
+    }
+    @media (max-width: 768px) {
+      nav {
+        font-size: 0.9em;
+      }
+      .section-title {
+        font-size: 1.3em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header with Name and Contact -->
+  <header>
+    <h1>Ben Lewandowski</h1>
+    <p>
+      Email: <a href="mailto:ben.lewandowski@queensu.ca">ben.lewandowski@queensu.ca</a> |
+      Phone: 647-964-0743
+    </p>
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/ben-lewandowski-/" target="_blank">
+        linkedin.com/in/ben-lewandowski-
+      </a>
+    </p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#education">Education</a>
+    <a href="#work-experience">Work Experience</a>
+    <a href="#extracurricular">Extracurricular</a>
+    <a href="#additional-info">Additional Info</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="item">
+      <h3>Smith School of Business at Queen’s University</h3>
+      <p>Kingston, ON</p>
+      <p>
+        Bachelor of Commerce (Honors) - Transferred from Bachelor of Science
+        (Class of 2027)
+      </p>
+      <p>GPA: 3.8/4.3</p>
+      <p>
+        Relevant Coursework: Calculus for Business (A+), Psychology (A), Statistics (A),
+        Accounting (A), Economics (A), Marketing (A)
+      </p>
+      <p>
+        Certifications: Bloomberg Market Concepts, Bloomberg Environmental Social
+        Governance
+      </p>
+    </div>
+    <div class="item">
+      <h3>Tanenbaum CHAT</h3>
+      <p>Toronto, ON</p>
+      <p>Ontario Secondary School Diploma (Class of 2023)</p>
+      <p>
+        Academics and Awards: 94% AVG, Ontario Academic Scholar, Academic Honor Role x4,
+        Senior Letter Award
+      </p>
+    </div>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section id="work-experience">
+    <h2 class="section-title">Relevant Work Experience</h2>
+    <div class="item">
+      <h3>Bridgeport Asset Management</h3>
+      <p>
+        Toronto, ON — Incoming Summer Analyst (Summer 2025)
+      </p>
+      <p>
+        Participating in a 10-week analyst program at a boutique asset manager
+        catering to high-net-worth individuals.
+      </p>
+    </div>
+    <div class="item">
+      <h3>Bounced Inc (Bounce)</h3>
+      <p>
+        Toronto, ON — Sales and Partnerships Lead – Kingston Area (2024 - Present)
+      </p>
+      <ul class="sub-item">
+        <li>
+          Leading a team of 3 sales ambassadors in weekly strategy meetings.
+        </li>
+        <li>
+          Onboarding 150+ campus organizations and 12,000+ new users onto the
+          community management and event platform.
+        </li>
+        <li>
+          Delivered over 60 sales pitches to various organizations and local
+          businesses, converting over 85% of prospects.
+        </li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Omniado</h3>
+      <p>
+        Tel Aviv, IS — Consultant (Summer 2024)
+      </p>
+      <ul class="sub-item">
+        <li>
+          Developed 6 strategic recommendations for a business process outsourcing firm during an internship, presenting directly to the company’s CEO and Co-Founders.
+        </li>
+        <li>
+          Researched and analyzed competitors across 4 industries through interviews and data analytics using Excel.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Extracurricular Experience Section -->
+  <section id="extracurricular">
+    <h2 class="section-title">Extracurricular Experience</h2>
+    <div class="item">
+      <h3>TBL Capital</h3>
+      <p>
+        Kingston, ON — Portfolio Manager (2025 – Present)
+      </p>
+      <ul class="sub-item">
+        <li>
+          Managed a student-run digital asset hedge fund with approximately $50k AUM.
+        </li>
+        <li>
+          Oversaw a team of 4 analysts and contributed to bi-weekly market updates, investment pitches, and performance reviews.
+        </li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>BL App Studios</h3>
+      <p>
+        Toronto, ON — Founder and Developer (2025 - Present)
+      </p>
+      <p>
+        Founded an app development company utilizing AI to build iOS apps that solve unique problems for customers worldwide.
+      </p>
+    </div>
+    <div class="item">
+      <h3>Queen’s Conference on International Business (QCIB)</h3>
+      <p>
+        Toronto, ON — Sponsorships Director (Formerly Events Coordinator) (2024 – Present)
+      </p>
+      <ul class="sub-item">
+        <li>
+          Managed a team of 4 to secure $80,000 in sponsorships through corporate outreach.
+        </li>
+        <li>
+          Organized logistics for 12+ networking events for executives and delegates.
+        </li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Queens Leadership Entrepreneurship & Development Committee (QLEAD)</h3>
+      <p>
+        Kingston, ON — Delegates Director (Formerly Delegates Coordinator) (2024 – Present)
+      </p>
+      <ul class="sub-item">
+        <li>
+          Oversaw 150 delegates during a 4-day conference bringing high school students to Queen’s University.
+        </li>
+        <li>
+          Re-designed and evaluated the application process, reviewing a record 330 applications.
+        </li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Queen’s Sports Industry Committee (QSIC)</h3>
+      <p>
+        Kingston, ON — Human Resources Director (Formerly Delegates Director) (2024 - Present)
+      </p>
+      <ul class="sub-item">
+        <li>
+          Managed over 200 delegates across 6 events and a 3-day sports industry conference.
+        </li>
+        <li>
+          Led the brand ambassador initiative, including interviewing 50 candidates and hiring 25.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Additional Information Section -->
+  <section id="additional-info">
+    <h2 class="section-title">Additional Information</h2>
+    <div class="item">
+      <p>
+        <strong>Competitions:</strong> McKinsey Challenge Toronto, Queens Corporate Consulting Competition (3-day competition with cases by McKinsey, BCG, and Bain – 5th place), MLSE Global Partnerships Case Comp (6th/380), Fulcrum IT Case (1st/100).
+      </p>
+      <p>
+        <strong>Interests:</strong> Politics, Entrepreneurship (including founding a football league and a software company), Sports (fan, player, coach, referee), International Business (experience abroad), and Global Travel (13 countries visited).
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:ben.lewandowski@queensu.ca">ben.lewandowski@queensu.ca</a></p>
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/ben-lewandowski-/" target="_blank">
+        https://www.linkedin.com/in/ben-lewandowski-/
+      </a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ben Lewandowski. All rights reserved.</p>
+  </footer>
+</body>
+</html>
